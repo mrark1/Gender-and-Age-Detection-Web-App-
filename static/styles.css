@@ -1,0 +1,39 @@
+body {
+    background-image:url("back.webp");
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+h1 {
+    color:black;
+}
+
+.video-container {
+    background-image: url("back.webp");
+}
+
+#video {
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+

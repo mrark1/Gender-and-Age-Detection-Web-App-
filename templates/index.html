@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender and Age Detection</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="my-4">Gender and Age Detection</h1>
+
+        <!-- Start/Stop button -->
+        <div class="mb-3">
+            <button id="startButton" class="btn btn-success">Start</button>
+            <button id="stopButton" class="btn btn-danger" style="display: none;">Stop</button>
+        </div>
+
+        <!-- Video Feed -->
+        <div class="video-container mb-4">
+            <img id="video" src="/video_feed" class="img-fluid" alt="Video Feed" style="max-width: 70%; margin: 0 auto; display: block;">
+        </div>
+
+        <!-- Result Display -->
+        <div id="result" class="mb-4"><marquee>
+            <h4 style="color:red; font-style: italic;"><p>Project By : ARPIT RAJ KATIYAR  240410    For the Requirement in FA 5       </p> </h4></marquee>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>
